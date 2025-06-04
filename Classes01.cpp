@@ -15,6 +15,7 @@ public:
         firstName = first;
         lastName = last;
     }
+    ~Person() = default; // Default destructor
 };
 
 std::string Person::getName()
